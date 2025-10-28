@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Lexend+Exa&display=swap');
+
+body {
+    margin: 0;
+    font-family: News Reader;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
+    font-family: Lexend Exa;
+    font-weight: lighter;
+}
+
+nav .logo {
+    font-size: 3rem;
+    color: #000; 
+    font-family: Playball;
+}
+
+nav .nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav .nav-links li {
+    display: inline;
+}
+
+nav .nav-links a {
+    color: rgba(0,0,0,1);
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.nav-divider {
+    height: 0.125rem;
+    background-color: #ccc;
+    margin: 0;
+}
+
+
+header {
+    font-family: Lexend Exa;
+    font-size: 7.5rem;
+    line-height: 7.5rem;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+header h1 {
+    font-size: 7rem;
+    line-height: 1.2;
+    font-weight: lighter;
+}
+
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.introduction {
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+}
+
+.introduction .subtitle {
+    font-family: Newsreader;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: right;
+}
+
+
+.introduction p {
+    font-family: Newsreader;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+    
+}
+
+.introduction h2{
+    font-family: Lexend Exa;
+    font-weight: lighter;
+    margin: 0;
+    padding:0 4rem;
+}
+
+.introduction .A1 {
+    font-size: 5rem;
+    margin: 0;
+    text-align: left;
+}
+
+.introduction .A2{
+    font-size: 5rem;
+    margin: 0;
+    text-align: center;
+}
+
+.introduction .A3{
+    font-size: 5rem;
+    margin: 0;
+    text-align: right;
+}
+
+
+.portfolio .grid {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.portfolio .grid-item img {
+    width: 100%;
+    height: auto;
+    border: 0.0625em solid #ddd;
+}
+
+.portfolio .grid-item p {
+    margin-top: 0.5rem;
+}
+
+
+.about {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-text {
+    font-family: Lexend Exa;
+    font-size: 3rem;
+    font-weight: lighter;
+    line-height: 3.25rem;
+    letter-spacing: -0.01em;
+    text-align: center;
+    padding: 6rem;
+}
+
+.about-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 13.5rem;
+    padding-left: 4rem;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.7), rgba(173, 124, 0, 0.336)) 
+}
+
+
+.about-info{
+    width: 39rem;
+    gap: 3rem;
+
+}
+
+.about-info h2 {
+    font-family: Lexend Exa;
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 4.25rem;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+}
+
+.about-info p {
+    font-family: Newsreader;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.005em;
+    text-align: left;
+}
+
+.about .portrait {
+    padding-right: 2rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    background: rgba(173, 124, 0, 1);
+    color: white;
+    font-family: Lexend Exa;
+    border: none;
+    cursor: pointer;
+}
+
+
+.services {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: Lexend Exa;
+    font-weight: lighter;
+}
+.extra_txt {
+    width: 30%;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: Newsreader;
+    margin-right: 1rem;
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: Newsreader;
+    margin-right: 5rem;
+}
+
+
+
+
+.contact-btn {
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.last_content {
+    width: 100%;
+    margin: 3rem 0;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+
+}
+.last_content h2 {
+    font-family: Lexend Exa;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.testi {
+    padding: 0 3rem;
+    max-width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: start;
+    align-items: start;
+    overflow: auto;
+
+}
+
+
+.card {
+    max-width: 300px;
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #00000029;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+.intro {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+.intro img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.job {
+    width: 11rem;
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    font-family: Newsreader;
+    font-size: 1rem;
+    font-weight: 500;    
+}
+.work {
+    font-family: Newsreader;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00000099;  
+}
+.work_text {
+    width: 78%;
+}
+.work_text span {
+    font-family: Newsreader;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.desc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.line {
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line .div {
+    width: 0;
+    height: 3em;
+    border-radius: 0.0625em;
+    border: 0.0625em solid #00000029;
+}
+.desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-weight: lighter;
+    font-size: 1rem;
+    font-family: Lexend Exa;
+}
+
+footer .contact-btn {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #000;
+    border: 0.0625em solid rgba(0, 0, 0, 0.16);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: Lexend Exa;
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .nav-links {
+        width: 100%;
+        background: #fff;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+
+    .portfolio .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .services .extra_txt {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .testi {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .about-details {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .portrait {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .introduction {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+        padding: 0.5rem 1rem;
+    }
+
+    nav .nav-links {
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+
+    header h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        padding: 1rem;
+    }
+
+
+    .portfolio .grid {
+        grid-template-columns:repeat(1,1fr);
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+
+    .about-details {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .portrait {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .services {
+        padding: 1rem;
+    }
+
+    .extra_txt .one,
+    .extra_txt .two {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .testi {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+
+    .introduction .subtitle {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .introduction p {
+        text-align: center;
+    }
+
+
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .contact-btn {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
